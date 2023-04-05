@@ -1,0 +1,125 @@
+.container{
+    position: absolute;
+    width: 1510px;
+    height: 800px;
+    
+    background: #FFFFFF;
+    }
+    .sidebar {
+      position: absolute;
+      width: 150px;
+      height: 840px;
+      background: #191718;
+    }
+    
+    .sidebar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .sidebar li {
+      margin: 0;
+      padding: 0;
+      border-bottom: 1px solid #a4a2a2;
+    }
+    
+    .sidebar a {
+      display: block;
+      padding: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .sidebar a:hover {
+      background: #fff;
+      color: #191718;
+    }
+    
+    .content{
+    height: 800px;
+    }
+    .i{
+      margin-left: 12%;
+      margin-top: 6px;
+    }
+    .imgs{
+    width: 310px;
+    height: 122px;
+    }
+    .img{
+    text-align: center;
+    }
+    .lorem{
+      width: 700px;
+      text-align: center;
+      margin-left: 19%;
+      background-color: #e2e2e2;
+      padding: 5px 200px;
+      margin-top: 10px;
+    }
+    .item{
+      display: flex;
+    }
+    
+    .ite{
+      display: flex;;
+    }
+    
+    .ite img{
+      width: 50px;
+      height: 50px;
+    }
+    .item {
+      display: flex;
+      width: 1100px;
+      margin-left: 19%;
+      text-align: start;;
+    }
+    
+    .subItem {
+      flex: 1;
+      margin-right: 10px; /* khoảng cách giữa các subItem */
+    }
+    
+    .subItem h3{
+      margin-left: -140px;
+    }
+    .ite {
+      display: flex;
+      /* align-items: center; */
+      margin-top: 10px; /* khoảng cách giữa ảnh và text */
+    }
+    
+    img {
+      width: 50px; /* kích thước ảnh */
+      height: 50px;
+      margin-right: 10px; /* khoảng cách giữa ảnh và text */
+    }
+    .subItem img {
+      width: 100px;
+      height: 100px;
+      float: left;
+      margin-right: 10px;
+    }
+    
+    .subItem span {
+      display: inline-block;
+      width: calc(100% - 110px);
+    }
+    .subItem {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .subItem img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+    .footer{
+      margin-top: 210px;
+      margin-left: -60%;
+      border-top: 1px solid #ccc;
+    }
